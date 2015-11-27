@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Storefront 1.5.3\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/storefront/issues\n"
 "POT-Creation-Date: 2015-11-03 10:15:14+00:00\n"
-"PO-Revision-Date: Fri Nov 27 2015 17:59:51 GMT+0700 (ICT)\n"
+"PO-Revision-Date: Fri Nov 27 2015 18:05:28 GMT+0700 (ICT)\n"
 "Last-Translator: datga <ltdat5789@gmail.com>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: Vietnamese\n"
@@ -436,19 +436,19 @@ msgstr ""
 
 #: inc/structure/template-tags.php:65
 msgid "Recent Products"
-msgstr ""
+msgstr "Sản phẩm mới nhất"
 
 #: inc/structure/template-tags.php:103 inc/woocommerce/template-tags.php:144
 msgid "Featured Products"
-msgstr ""
+msgstr "Sản phẩm nổi bật"
 
 #: inc/structure/template-tags.php:142
 msgid "Top Rated Products"
-msgstr ""
+msgstr "Sản phẩm ưa thích"
 
 #: inc/structure/template-tags.php:179
 msgid "On Sale"
-msgstr ""
+msgstr "Đang giảm giá"
 
 #: inc/woocommerce/template-tags.php:18
 msgid "View your shopping cart"
