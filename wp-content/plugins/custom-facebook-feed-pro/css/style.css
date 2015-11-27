@@ -1,0 +1,276 @@
+
+/**************/
+/*** LAYOUT ***/
+/**************/
+
+/* Feed container */
+#cff {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Individual post item */
+#cff .cff-item{
+  float: left;
+  width: 100%;
+  clear: both;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+#cff .cff-item:first-child{
+  padding-top: 0;
+}
+
+
+/******************/
+/*** TYPOGRAPHY ***/
+/******************/
+
+/* Links */
+#cff a {
+  color:#666;
+  text-decoration:underline;
+}
+#cff a:active, #cff a:hover {
+  color: #000;
+}
+
+/* Post titles and body text */
+#cff h4, #cff h3, #cff p{
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+#cff h4, #cff h3{
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -hp-pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Date */
+#cff .cff-date{
+  float: left;
+  width: 100%;
+  font-size: 11px;
+}
+
+
+/*************/
+/*** MEDIA ***/
+/*************/
+
+/*** PHOTOS ***/
+#cff .cff-photo{
+  max-width: 100%;
+  float: left;
+  display: block;
+}
+#cff .cff-photo img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*** VIDEO ***/
+/* Embedded videos */
+#cff iframe{
+  float: left;
+  clear: both;
+  margin: 5px 0;
+  max-width: 100% !important;
+}
+
+/* Link to an external video - Contains screenshot of video and play button */
+#cff .cff-vidLink{
+  float: left;
+  clear: both;
+  position: relative;
+  width: 100%;
+
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+
+/* Video screenshot/poster image */
+#cff .cff-vidLink .poster{
+  width: 100%;
+  height: auto;
+}
+
+/* Video play button */
+#cff .cff-playbtn{
+  position: absolute;
+  top: 42.5%;
+  left: 45%;
+  background: #000;
+  background: rgba(0,0,0,0.7);
+  width: 10%;
+  height: 15%;
+
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+/* Arrow within play button */
+#cff .cff-playbtn img{
+  display: block;
+  position: absolute;
+  top: 25%;
+  left: 28%;
+  width: 50%;
+  height: 50%;
+}
+
+/* Play button hover state */
+#cff .cff-vidLink:hover .cff-playbtn,
+#cff .cff-vidLink:focus .cff-playbtn{
+  background: #000;
+}
+
+/* Link */
+#cff .link, #cff .text-link{
+  float: left;
+  clear: both;
+  padding: 0;
+}
+#cff .text-link{
+  padding: 5px 0 10px 0;
+}
+
+/* Event */
+#cff .details{
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 15px 0 10px 0;
+}
+#cff .details h5{
+  margin: 0 0 5px 0;
+  font-size: 16px;
+}
+#cff .details p{
+  font-size: 14px;
+}
+
+
+/*****************/
+/*** POST META ***/
+/*****************/
+
+/* Meta container */
+#cff .cff-meta{
+  float: left;
+  clear: both;
+  list-style-type: none;
+  padding: 10px 0 5px 0;
+  margin: 0;
+}
+
+/* Meta list items (likes, comments, shares) */
+#cff .cff-meta li{
+  float: left;
+  display: block;
+  list-style-type: none;
+  margin: 0 10px 0 0;
+  padding: 0;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+/* Icons */
+#cff .cff-meta li span{
+  display: block;
+  float: left;
+  width: 13px;
+  height: 13px;
+  margin-right: 5px;
+  text-indent: -9999px;
+  background: url('../img/icons.png') no-repeat;
+}
+/* Comments */
+#cff .cff-meta li.comments span{
+  background-position: 0 0;
+}
+/* Likes */
+#cff .cff-meta li.likes span{
+  background-position: 0 -16px;
+}
+/* Shares */
+#cff .cff-meta li.shares span{
+  background-position: 0 -33px;
+}
+
+/* Display comments */
+#cff .view-comments{
+  display: block;
+  float: left;
+  clear: both;
+  margin: 5px 0;
+  padding: 0 5px 5px 10px;
+  background: #eee;
+}
+#cff .view-comments:hover,
+#cff .view-comments:focus{
+  background: #ddd;
+}
+#cff .comments-box{
+  display: none;
+  float: left;
+  clear: both;
+  margin: 0;
+  padding: 10px 15px;
+  background: #eee;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+#cff .comments-box .name{
+  padding: 0;
+  margin-right: 10px;
+}
+#cff .comments-box .time{
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* View on Facebook / View Link text */
+#cff .cff-viewpost{
+  float: left;
+  clear: both;
+  padding-top: 10px;
+  font-size: 11px;
+}
+
+/* Like box */
+#cff .cff-likebox{
+  float: left;
+  width: 100%;
+  margin: 10px 0 0 -10px;
+}
+
+/* Clear fix */
+.clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clear {
+    display: inline-block;
+    display: block;
+}
